@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic;
+    
+}
+body{
+    background-color: #f3f3f3;
+}
+
+input {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+i {
+    font-size: 35px;
+
+}
+
+
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #E3E6F3;
+    box-shadow: 0 5px 15px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+
+}
+
+#navbar+li+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    font-style: italic;
+
+}
+
+#navbar li a:hover {
+    color: #088178;
+}
+
+span {
+    font-size: 30px;
+    margin-right: 500px;
+    color: #fc5833;
+}
+
+/* Navbar ends */
+#heading{
+    display: flex;
+    margin-top: 30px;
+
+}
+#head_para{
+    font-size: 20px;
+    margin-right: 20px;
+
+    padding-left: 30px;
+    padding-top: 15px;
+}
+#heading_container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+   margin: auto;
+}
+#heading_1{
+ 
+    width: 40%;
+    font-size: 45px;
+ text-align: center;
+  display: flex;
+  align-items: center;
+  color: #f55029;
+    
+}
+#head_1{
+ padding-left: 80px;
+}
+#main_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+    text-align: center;
+    
+}
+#content{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#By_category ,#By_price{
+    background-color: orangered;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+  /* footer part Start  */
+
+
+#footer {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin-top: 60px;
+    background-color: white;
+}
+
+#footer>div {
+    width: 33%;
+    height: 100%;
+}
+
+#child1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    margin: auto;
+    text-content: center;
+
+}
+
+#child2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    text-content: center;
+
+}
+
+#icon {
+    display: flex;
+    gap: 20px;
+}
+
+#icon_grid {
+    gap: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+#terms_condition {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#child3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav2 {
+    height: 100px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+
+}
+
+#nav2>img {
+    height: 100px;
+    width: 7.7%;
+}
