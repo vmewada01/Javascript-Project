@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic;
+    
+}
+body{
+    background-color: #f3f3f3;
+}
+
+input {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+i {
+    font-size: 35px;
+
+}
+
+
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #E3E6F3;
+    box-shadow: 0 5px 15px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+
+}
+
+#navbar+li+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    font-style: italic;
+
+}
+
+#navbar li a:hover {
+    color: #088178;
+}
+
+span {
+    font-size: 30px;
+    margin-right: 500px;
+    color: #fc5833;
+}
+/* navbar end  */
+
+#parent{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 25%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap :34px;
+   margin: auto;
+   font-size: 20px;
+   padding-top: 10px;
+   border-radius: 5px;
+   
+}
+#summary{
+    font-size: 30px;
+    color: blue;
+}
+#subtotal,#total{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color:   red;
+    font-weight: 1000;
+    
+}
+#payment ,#click{
+    font-size: 30px;
+    background-color: #ff6a27;
+}
+#p{
+    text-align: center;
+}
+#cart_items{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ margin-top: 50px;
+}
+
+/* footer part */
+
+#footer {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    margin-top: 60px;
+    background-color: white;
+}
+
+#footer>div {
+    width: 33%;
+    height: 100%;
+}
+
+#child1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    margin: auto;
+    text-content: center;
+
+}
+
+#child2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    text-content: center;
+
+}
+
+#icon {
+    display: flex;
+    gap: 20px;
+}
+
+#icon_grid {
+    gap: 20px;
+    margin: 20px;
+    display: flex;
+}
+
+#terms_condition {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#child3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#nav2 {
+    height: 100px;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+
+}
+
+#nav2>img {
+    height: 100px;
+    width: 7.7%;
+}

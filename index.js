@@ -8,17 +8,17 @@ var newArrival_mens =
         {
             image: "https://imgaz1.staticbg.com/thumb/view/oaupload/banggood/images/C9/CF/52cc9bc7-2240-4fb6-8d62-f1f946f2e9a8.jpg.webp",
             price: 2300,
-            strikeoff: 3120
+            strikeoff: 3120,
         },
         {
             image: "https://imgaz.staticbg.com/thumb/view/oaupload/banggood/images/61/77/94c69082-d3f4-419f-a9c8-5fc4a221d1bb.jpg.webp",
             price: 1200,
-            strikeoff: 1700
+            strikeoff: 1700,
         },
         {
             image: "https://imgaz2.staticbg.com/thumb/view/oaupload/banggood/images/39/57/19a0c866-c6df-4838-a239-e77f5ff7d814.jpg.webp",
             price: 1720,
-            strikeoff: 2400
+            strikeoff: 2400,
         }
      
     ]
@@ -30,10 +30,10 @@ var newArrival_mens =
         image.src =ele.image
       
         let p1=document.createElement("p")
-        p1.innerText =ele.price 
+        p1.innerText ="$"+" "+ele.price 
 
         let p2=document.createElement("s")
-        p2.innerText=ele.strikeoff 
+        p2.innerText="$"+" "+ele.strikeoff 
         p2.style.color="red"
         
         box.append(image,p1,p2)
@@ -79,10 +79,10 @@ var newArrival_mens =
         image.src =ele.image
       
         let p1=document.createElement("p")
-        p1.innerText =ele.price 
+        p1.innerText ="$"+" "+ele.price 
 
         let p2=document.createElement("s")
-        p2.innerText=ele.strikeoff 
+        p2.innerText="$"+" "+ele.strikeoff 
         p2.style.color="red"
         
         box.append(image,p1,p2)
@@ -129,10 +129,10 @@ shoesData.map(function (ele,ind,arr){
     image.src =ele.image
   
     let p1=document.createElement("p")
-    p1.innerText =ele.price 
+    p1.innerText = "$"+" "+ele.price 
 
     let p2=document.createElement("s")
-    p2.innerText=ele.strike
+    p2.innerText="$"+" "+ele.strike
     p2.style.color="red"
     
     box.append(image,p1,p2)
@@ -174,10 +174,10 @@ sportsData.map(function (ele,ind,arr){
     image.src =ele.image
   
     let p1=document.createElement("p")
-    p1.innerText =ele.price 
+    p1.innerText ="$"+" "+  ele.price 
 
     let p2=document.createElement("s")
-    p2.innerText=ele.strike
+    p2.innerText="$"+" "+ele.strike
     p2.style.color="red"
     
     box.append(image,p1,p2)
