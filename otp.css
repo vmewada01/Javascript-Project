@@ -130,3 +130,19 @@ span {
     height: 100px;
     width: 7.7%;
 }
+
+#otp_enter{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    gap:20px;
+}
+#submit{
+    font-size: 30px;
+    background-color: #fc5833;
+    border-radius: 5px;
+}

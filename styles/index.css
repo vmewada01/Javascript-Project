@@ -58,14 +58,15 @@ span {
     margin-right: 500px;
     color: #fc5833;
 }
+
 /* Navbar tag end */
 .box>div {
     display: flex;
-    ;
     justify-content: space-around;
     margin-top: 30px;
     margin: auto;
 }
+
 
 .box i {
     font-size: 20px;
@@ -76,6 +77,7 @@ span {
     font-size: 30px;
     text-align: center;
 }
+
 #container {
     display: flex;
     gap: 20px;
@@ -260,4 +262,51 @@ a {
 #nav2>img {
     height: 100px;
     width: 7.7%;
+}
+
+/* media Queries  */
+
+@media only screen and (max-width: 1300px) and (min-width: 850px) {
+
+    #sports_part,
+    #shoes_part,
+    #womens_part,
+    #mens_part {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 430px) {
+
+    #sports_part,
+    #shoes_part,
+    #womens_part,
+    #mens_part {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #icon_grid,
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    #sports_part,
+    #shoes_part,
+    #womens_part,
+    #mens_part {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #container,
+    #navbar,
+    #footer,
+    #icon_grid,
+    #icon {
+        display: flex;
+        flex-direction: column;
+    }
 }

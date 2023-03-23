@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>V-Shopping Cart</title>
-    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="otp.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 
@@ -32,7 +32,13 @@
 
     <!-- Navbar Ends -->
 
+  <div id="otp_enter">
+    <h1>Enter OTP</h1>
+    <p><input type="number" name="" id="otp" placeholder="type here">
+    </p>  
+      <button id="submit">enter otp</button>
 
+  </div>
 
 
 
@@ -139,4 +145,16 @@
 </body>
 
 </html>
-<script src="payment.js"></script>
+<script>
+   document.querySelector("#submit").addEventListener("click",finalsubmit)
+
+    function finalsubmit(){
+      let final =document.querySelector("#otp").value
+
+      if(final==123){
+        alert("Payment Successfull");
+        window.location.href="index.html"
+      }
+    }
+
+</script>

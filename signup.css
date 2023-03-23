@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-style: italic;
-
+    
 }
-
-body {
+body{
     background-color: #f3f3f3;
 }
 
@@ -63,67 +62,7 @@ span {
     margin-right: 500px;
     color: #fc5833;
 }
-
-/* Navbar ends */
-#heading {
-    display: flex;
-    margin-top: 30px;
-
-}
-
-#head_para {
-    font-size: 20px;
-    margin-right: 20px;
-
-    padding-left: 30px;
-    padding-top: 15px;
-}
-
-#heading_container {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: auto;
-}
-
-#heading_1 {
-
-    width: 40%;
-    font-size: 45px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    color: #f55029;
-
-}
-
-#head_1 {
-    padding-left: 80px;
-}
-
-#main_container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
-    text-align: center;
-
-}
-
-#content {
-    margin-top: 50px;
-    margin-left: 20px;
-}
-
-#By_category,
-#By_price {
-    background-color: orangered;
-    font-size: 20px;
-    border-radius: 5px;
-    margin-left: 20px;
-}
-
-/* footer part Start  */
-
+/* navbar end  */
 
 #footer {
     display: flex;
@@ -192,50 +131,34 @@ span {
     width: 7.7%;
 }
 
-/* media Queries  */
+  /* Form related css */
+  
+  input
+   {
+    display: block;
+    margin: 15px 0px;
+    font-size: 20px;
+    padding: 2%;
+     width: 80%;
+  }
+  #submit{
+    background-color: #fc5b35;
+  }
+  option {
+    font-size: 25px;
+  }
+  form {
+    width: 400px;
+    border: 1px solid rgb(230, 230, 230);
+    margin: 3% auto;
+    padding: 3%;
+    background: white;
+  }
+  /* Form related css */
 
-@media only screen and (max-width: 1300px) and (min-width: 850px) {
-
-
-    #heading_container,
-    #main_container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media only screen and (max-width: 850px) and (min-width: 430px) {
-
-
-    #heading_container,
-    #main_container {
-        grid-template-columns: repeat(1, 1fr);
-        display: flex;
-        flex-direction: column;
-    }
-
-    #icon_grid,
-    #container {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-
-
-    #heading_container,
-    #main_container {
-        grid-template-columns: repeat(1, 1fr);
-        display: flex;
-        flex-direction: column;
-    }
-
-    #container,
-    #navbar,
-    #footer,
-    #icon_grid,
-    #icon {
-        display: flex;
-        flex-direction: column;
-    }
-}
+  #signup{
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 5px;
+  }
