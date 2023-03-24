@@ -147,12 +147,20 @@ span {
     border-radius: 5px;
 }
 /* media Queries  */
+@media only screen and (max-width: 1300px) and (min-width: 850px) {
+
+
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 
 @media only screen and (max-width: 850px) and (min-width: 430px) {
 
-
+    #header,
     #icon_grid,
     #container {
         display: flex;
@@ -163,7 +171,7 @@ span {
 @media only screen and (max-width: 420px) {
 
 
-
+    #header,
     #navbar,
     #footer,
     #icon_grid,

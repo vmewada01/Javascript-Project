@@ -190,6 +190,10 @@ span {
     #heading_container,#main_container {
         grid-template-columns: repeat(2, 1fr);
     }
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 850px) and (min-width: 430px) {
@@ -200,7 +204,7 @@ span {
         display: flex;
         flex-direction: column;
     }
-
+    #header,
     #icon_grid,
     #container {
         display: flex;
@@ -216,7 +220,7 @@ span {
         display: flex;
         flex-direction: column;
     }
-
+    #header,
     #container,
     #navbar,
     #footer,

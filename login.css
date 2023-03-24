@@ -167,6 +167,14 @@ span {
 
 
  /* media Queries  */
+ @media only screen and (max-width: 1300px) and (min-width: 850px) {
+
+
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
 
@@ -178,12 +186,16 @@ span {
         display: flex;
         flex-direction: column;
     }
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 420px) {
 
 
-
+    #header,
     #navbar,
     #footer,
     #icon_grid,
