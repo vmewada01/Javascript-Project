@@ -12,10 +12,18 @@
 
  document.querySelector("#click").addEventListener("click",discount)
  function discount(){
-    total = (total*30)/100
-   alert("Promo Code of 30% applied Successfully")
-    document.querySelector("#show_total").innerText="$"+" "+total
-    document.querySelector("#show_subtotal").innerText="$"+" "+total
+   let input=document.querySelector("#promo").value 
+   if(input=="vishal22"){
+      total = (total*30)/100
+      alert("Promo Code of 30% applied Successfully")
+       document.querySelector("#show_total").innerText="$"+" "+total
+       document.querySelector("#show_subtotal").innerText="$"+" "+total
+       document.querySelector("#click").innerText="Applied Successfully"
+       document.querySelector("#click").style.backgroundColor="green"
+   
+   }
+
+    
  }
 
 

@@ -148,7 +148,7 @@ span {
     font-size: 25px;
   }
   form {
-    width: 400px;
+    width: 500px;
     border: 1px solid rgb(230, 230, 230);
     margin: 3% auto;
     padding: 3%;
@@ -156,9 +156,40 @@ span {
   }
   /* Form related css */
 
-  #signup{
-    font-size: 30px;
-    border: 2px solid black;
-    padding: 15px;
+
+  #login{
+    background-color: green;
+  padding-left: 10px;
+  padding-right: 10px;
     border-radius: 5px;
+    font-size: 25px;
+  display: flex;
+   margin: auto;
   }
+
+/* media Queries  */
+
+
+
+@media only screen and (max-width: 850px) and (min-width: 430px) {
+
+
+    #icon_grid,
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+
+
+    #navbar,
+    #footer,
+    #icon_grid,
+    #icon {
+        display: flex;
+        flex-direction: column;
+    }
+}

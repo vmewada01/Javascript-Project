@@ -146,3 +146,29 @@ span {
     background-color: #fc5833;
     border-radius: 5px;
 }
+/* media Queries  */
+
+
+
+@media only screen and (max-width: 850px) and (min-width: 430px) {
+
+
+    #icon_grid,
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+
+
+    #navbar,
+    #footer,
+    #icon_grid,
+    #icon {
+        display: flex;
+        flex-direction: column;
+    }
+}

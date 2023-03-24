@@ -66,14 +66,15 @@ span {
 
 #parent{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    width: 25%;
-    height: 500px;
+    width: 30%;
+    height: 700px;
     display: flex;
     flex-direction: column;
     gap :34px;
    margin: auto;
    font-size: 20px;
    padding-top: 10px;
+   padding-bottom: 20px;
    border-radius: 5px;
    
 }
@@ -100,6 +101,12 @@ span {
  display: grid;
  grid-template-columns: repeat(4,1fr);
  margin-top: 50px;
+}
+
+#promo{
+    display: flex;
+    margin: auto;
+    width: 90%;
 }
 
 /* footer part */
