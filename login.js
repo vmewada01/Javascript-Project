@@ -20,3 +20,9 @@ function checkdetails(){
    }
   
 }
+document.querySelector("#signup").addEventListener("click",signupfun)
+
+function signupfun(){
+  event.preventDefault()
+  window.location.href="signup.html"
+}
